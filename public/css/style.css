@@ -1,0 +1,126 @@
+/* GLOBAL STYLES -------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  padding-top: 3rem;
+  color: #5a5a5a;
+  overflow-x: hidden;
+}
+
+.body-main {
+  padding-top: 40px;
+}
+
+.body-section {
+  padding-top: 70px;
+}
+/* GLOBAL STYLES -------------------------------------------------- */
+
+/* AFFIX MENU -------------------------------------------------- */
+.affix {
+    top: 80px;
+    position: fixed;
+    width: 262px;
+}
+/* AFFIX MENU -------------------------------------------------- */
+
+.navbar .navbar-nav > li > a {
+    color: #fff;
+}
+
+.well-info {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #e3f2fd;
+    border: 2px solid #0099CC;
+    border-radius: 4px;
+}
+
+.hr-info-color-dark {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #0099CC;
+}
+
+.hr-blue-lighten-5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #e3f2fd;
+}
+
+.text-info-color-dark {
+    color: #0099CC;
+}
+
+.hr-info-color-dark-tree {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 2px solid #0099CC;
+}
+
+.page-header-doc {
+    margin: 0 0 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.btn .i-inherit, .btn-flat .i-inherit {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.panel-group-menu {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+
+/* RESPONSIVE CSS -------------------------------------------------- */
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+}
+/* RESPONSIVE CSS -------------------------------------------------- */
+
+/* CORRECT DISPLAY FOR FORM ERROR -------------------------------------------------- */
+.has-feedback .form-control {
+    padding-right: 0px;
+}
+/* CORRECT DISPLAY FOR FORM ERROR -------------------------------------------------- */
+
+/* FOOTER -------------------------------------------------- */
+footer {
+    margin-top: 0.3em;
+    font-weight: 300;
+    border-top: 3px solid #0099CC;
+    padding-top: 15px;
+}
+/* FOOTER -------------------------------------------------- */
+
+.list-docs {
+	font-size: 1.25rem;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.dl-docs-dt {
+	width: auto !important;
+    text-align: left !important;
+}

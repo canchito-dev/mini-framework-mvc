@@ -1,0 +1,31 @@
+{
+    "name": "canchito-dev/mini-framework-mvc",
+    "type": "project",
+    "description": "An extremely simple MVC framework written in PHP",
+    "keywords": ["skeleton", "boilerplate", "framework", "barebone", "application"],
+    "homepage": "https://github.com/canchito-dev/mini-framework-mvc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José Carlos Mendoza Prego",
+            "role": "Developer",
+            "email": "contact@canchito-dev.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/canchito-dev/mini-framework-mvc/issues",
+        "source": "https://github.com/canchito-dev/mini-framework-mvc"
+    },
+    "require": {
+        "php": ">=5.3.0 <7.0",
+        "twig/twig": "1.*",
+        "phpmailer/phpmailer": "5.2.16"
+    },
+    "autoload": {
+    	"classmap": [
+    		"application/core",
+    		"application/model",
+    		"application/libs"
+    	]
+    }
+}
