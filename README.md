@@ -378,3 +378,13 @@ I've written this unpaid, voluntarily, in my free-time and uploaded it on GitHub
 It's totally free, for private and commercial use. If you don't like it, don't use it.
 If you see issues, then please write a ticket (and if you are really cool: I'm very thankful for any commits!).
 But don't bash, don't complain, don't hate. Only bad people do so...."
+
+## Contribute Code
+
+If you would like to become an active contributor to this project please follow these simple steps:
+
+1. Fork it
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create new Pull Request
